@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/combinels.css">
+         
+
+</head>
+ 
+<body>
+    
+    <header>
+        <h1 class="heading">WELCOME </h1>
+       
+    </header>
+  
+       <div class="container">
+ 
+             <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Login</button>
+            <button class="signup">SignUp</button>
+        </div>
+        <div class="form-section">
+ 
+            <form class="login-box" action="/login" method="POST">
+                <input type="email" class="email ele" id="e" name="email" placeholder="youremail@email.com" >
+                <input type="password"  class="password ele" id="pass" name="pass" placeholder="password"  >
+                <button class="clkbtn" id="loginBtn" type="submit">Login</button>
+                <button class="clkbtn" id="forgotPasswordBtn">FORGET PASSWORD</button>
+            </a>
+
+            </form>
+        
+             <form class="signup-box" action="/register" method="POST">
+                <input type="text"
+                       name="name"
+                       class="name ele"
+                       placeholder="Enter your name">
+                <input type="email"
+                       name="email"
+                       class="email ele"
+                       placeholder="youremail@email.com" >
+                <input type="password"
+                       name="pass"
+                       class="password ele"
+                       placeholder="password" >
+                <input type="password"
+                       name="cnf"
+                       class="password ele"
+                       placeholder="Confirm password">
+                <button class="clkbtn" type="submit" id="signUpBtn">Signup</button>
+            </form>
+        </div>
+
+    <script src="combinels.js"></script>
+
+</body>
+ 
+</html>

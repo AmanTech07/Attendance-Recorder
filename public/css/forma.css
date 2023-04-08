@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button
+ {
+    background-color: rgb(33, 30, 30);
+    border: 2px solid  black;
+    color: rgb(224, 222, 232);
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 12px;
+ }
+.lii
+{
+    font-size: 27px;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link href="to-do">
+    
+    <link rel="stylesheet" href="css/to-do.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <p id="head"><strong>Tasks</strong> List</p>
+        
+        <button id="add-card-btn" class="btn">
+          <span class="add-btn">&nbsp;+&nbsp;</span> Add Item
+        </button>       
+      </div>
+      <p class="no-item back-button">No items in todo list</p>
+      <div class="cards-container"></div>
+      <div class="popup-container" id="popup-container">
+        <div class="popup">
+          <h2>Add New Item</h2>
+          <input type="text" id="card-name" placeholder="Enter Card Name..." />
+          <!-- <textarea
+            id="card-description"
+            placeholder="Enter Card Description..."
+          ></textarea> -->
+          <button id="add-card">Add</button>
+          <button id="cancel">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="to-do.js"></script>
+  </body>
+</html>
